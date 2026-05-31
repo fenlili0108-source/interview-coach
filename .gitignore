@@ -1,0 +1,18 @@
+# ── 隐私保护:防止使用者把自己填好的个人资料 / 面试产物提交到仓库 ──
+# 本仓库分发的是「空模板」。当你填入真实个人信息后，请勿 commit 这些改动。
+
+# 面试会话产物（公司画像、Q&A、复盘录音整理等，含敏感信息）
+sessions/
+
+# 如果你 fork 后想保留自己填好的 profile，删掉下面几行即可；
+# 默认忽略，避免误把真实简历数据推到公开仓库。
+# profile/profile.md
+# profile/projects.md
+# profile/talking-points.md
+# profile/qa-bank.md
+
+# 系统 / 编辑器杂项
+.DS_Store
+*.swp
+*~
+/tmp/
